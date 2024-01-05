@@ -1,37 +1,3 @@
-/* =====================================
-Template Name: Appkit
-Author Name: Naimur Rahman
-Author URI: http://wpthemesgrid.com/
-Description: Appkit - Creative App & SAAS Landing HTML5 Template.
-Version:	1.0
-========================================*/
-/*======================================
-[ CSS Table of contents ]
-01. Preloader CSS
-02. Color Plate CSS
-03. Header CSS
-	+ Topbar
-	+ Main Menu With Logo
-04. Hero Area CSS
-05. Brands CSS
-06. Work Area CSS
-07. Services CSS
-08. Counter CSS
-09. Pricing Table CSS
-10. Testimonials CSS
-11. Team CSS
-12. Faq CSS	
-13. Blog CSS	
-	+ Blog Archive
-	+ Blog Sidebar
-	+ Blog Single
-14. Contact CSS
-15. Call Action CSS
-16. Newsletter CSS
-17. 404 Error CSS
-18. Mail Success CSS
-19. Footer CSS
-========================================*/
 
 /* Preloader */
 .preeloader {
@@ -187,44 +153,6 @@ Version:	1.0
 	background:#fff;
 	color:#333;
 }
-/*=============================
-	Start Buy Pro CSS
-===============================*/
-.buy-pro{
-	text-align:center;
-	background:#ff4d4d;
-	padding:10px 0;
-}
-.buy-pro .inner{}
-.buy-pro p{
-	display:inline-block;
-	color:#fff;
-	margin-right:10px;
-	font-weight:600;
-}
-.buy-pro .pro-button{
-	display:inline-block;
-}
-.buy-pro .pro-button .btn {
-	background: #ffffff78;
-	color: #fff;
-	padding: 6px 25px;
-	font-size: 13px;
-	border-radius: 2px;
-	font-weight:500;
-}
-.buy-pro .pro-button .btn:before{
-	display:none;
-}
-.buy-pro .pro-button .btn:hover{
-	background:#fff;
-	color:#333 !important;
-}
-
-
-/*=============================
-	End Buy Pro CSS
-===============================*/
 
 /*======================================
 	Start Header CSS
@@ -242,8 +170,8 @@ Version:	1.0
 }
 /* Topbar */
 .site-header .topbar{
-	border-bottom:1px solid #eee;
-	padding:10px 0;
+	border-bottom:1px solid #000000;
+	padding:2px 0;
 }
 .site-header .topbar p{
 	
@@ -387,7 +315,7 @@ Version:	1.0
     Start Hero Area CSS
 ========================================*/  
 .hero-header {
-	min-height: 40vh;
+	min-height: 15vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -425,11 +353,15 @@ Version:	1.0
 }
 .hero-header .button{
 	margin-top:20px;
+	text-align: center;
+	float: center of img;
+	
+
 }
 .hero-header .btn {
-	text-align: left;
-	float: left;
-	background: #fff;
+	text-align: center;
+	float: center;
+	background: #000000;
 	color: #333;
 	border: none;
 	box-shadow: none;
@@ -455,6 +387,7 @@ Version:	1.0
 	background:#fff;
 	color:#006DFE !important;
 	border-color:transparent;
+	
 }
 .hero-header .btn:before{
 	display:none;
@@ -462,7 +395,9 @@ Version:	1.0
 .hero-header .hero-header-image{
 	margin-top:80px;
 }
-.hero-header .hero-header-image img{}
+.hero-header .hero-header-image{
+
+}
 .hero-header input {
 	display: inline-block;
 	width: 240px;
@@ -655,7 +590,8 @@ Version:	1.0
    Start services Area CSS
 ========================================*/
 .services-area{
-	background:#fff;
+	background:#ffffff;
+	text-emphasis-color: white;
 }
 .services-area .info-text {
 	position: relative;
@@ -669,6 +605,7 @@ Version:	1.0
 	margin: 15px 0 30px 0;
 }
 .services-area .des{
+
 	
 }
 .services-area .button{
@@ -683,6 +620,12 @@ Version:	1.0
 }
 .services-area .button .btn:last-child{
 	margin:0;
+}
+
+.services-area .services-rightside-media{
+	size:50%;
+	height:650px;
+	width: 750px;
 }
 /*======================================
    End services Area CSS
@@ -748,95 +691,6 @@ Version:	1.0
 }
 /*=============================
 	/End Counter CSS
-===============================*/
-
-/*=============================
-	Pricing Table CSS
-===============================*/
-.pricing-table {
-	background: #fff;
-	position: relative;
-}
-.pricing-table .single-table {
-	background: #fff;
-	text-align: center;
-	position: relative;
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	padding: 60px 20px;
-	box-shadow: 0 0 20px rgba(18,22,25,.1);
-	overflow:hidden;
-}
-.pricing-table .single-table .popular {
-	color: #fff;
-	background: #006DFE;
-	display: inline-block;
-	padding: 5px 70px;
-	position: absolute;
-	right: -60px;
-	top: 14px;
-	font-size: 13px;
-	transform: rotate(45deg);
-}
-/* Table Head */
-.pricing-table .single-table .table-head {
-	
-}
-.pricing-table .single-table .title {
-	font-size: 23px;
-	font-weight: 300;
-}
-.pricing-table .single-table .title span {
-	display: block;
-	margin-top: 8px;
-	font-size: 13px;
-	font-weight: 400;
-	color: #888;
-}
-.pricing-table .single-table .amount {
-	position: relative;
-	color: #333;
-	font-size: 35px;
-	display: inline-block;
-	margin: 45px 0;
-	font-weight: 600;
-}
-.pricing-table .single-table .curency {
-	color: #555;
-	font-size: 17px;
-	font-weight: 400;
-	position: absolute;
-	left: -14px;
-	top: -7px;
-}
-.pricing-table .single-table .duration {
-	color: #888;
-	font-size: 11px;
-	font-weight: 400;
-	position: absolute;
-	right: -25px;
-	bottom: -6px;
-}
-/* Table List */
-.pricing-table .table-list li {
-	color: #888;
-	margin-bottom: 6px;
-	font-size: 13px;
-}
-.pricing-table .table-list li:last-child{
-	margin-bottom:0;
-}
-/* Table Bottom */
-.pricing-table .button {
-	margin-top:30px;
-}
-.pricing-table .btn {
-	padding: 14px 32px;
-	color:#fff;
-}
-/*=============================
-	End Pricing Table CSS
 ===============================*/
 
 /*===================================
